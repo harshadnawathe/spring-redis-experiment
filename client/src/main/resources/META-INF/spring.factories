@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.harshadnawathe.counter.client.v1.configuration.CounterClientV1AutoConfiguration,\
+  com.github.harshadnawathe.counter.cache.configuration.CounterCacheAutoConfiguration

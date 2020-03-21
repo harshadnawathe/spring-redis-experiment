@@ -1,0 +1,6 @@
+server:
+  port: 5656
+client:
+  counter:
+    cache:
+      enabled: true

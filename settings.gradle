@@ -1,0 +1,9 @@
+rootProject.name = 'counter'
+
+include 'counter-service'
+project(':counter-service').projectDir = file('service')
+
+include 'counter-client'
+project(':counter-client').projectDir = file('client')
+
+include 'test-application'

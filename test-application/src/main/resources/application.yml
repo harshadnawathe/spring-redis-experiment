@@ -1,0 +1,11 @@
+client:
+    counter:
+        service:
+            base-url: http://localhost:5656/counter-service
+            v1:
+                create-counter-uri: /v1/counter
+                decrement-counter-uri: /v1/counter/{id}/decrement
+                get-counter-uri: /v1/counter/{id}
+                increment-counter-uri: /v1/counter/{id}/increment
+        cache:
+            enabled: true
